@@ -3,3 +3,11 @@ variable "linode_token" {
 	sensitive = true
 }
 
+variable "test_suite" {
+    type = list(object({
+        provider = string
+        size = string
+        region = string
+    }))
+}
+

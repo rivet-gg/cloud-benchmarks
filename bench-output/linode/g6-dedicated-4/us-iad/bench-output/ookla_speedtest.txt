@@ -1,0 +1,12 @@
+
+   Speedtest by Ookla
+
+      Server: Netprotect - Ashburn, VA (id: 37568)
+         ISP: Akamai Connected Cloud
+Idle Latency:     0.35 ms   (jitter: 0.01ms, low: 0.34ms, high: 0.38ms)
+    Download: 19140.79 Mbps (data used: 27.9 GB)                                                   
+                  0.70 ms   (jitter: 0.47ms, low: 0.39ms, high: 4.41ms)
+      Upload:  4987.15 Mbps (data used: 8.1 GB)                                                   
+                  0.45 ms   (jitter: 0.05ms, low: 0.36ms, high: 1.16ms)
+ Packet Loss: Not available.
+  Result URL: https://www.speedtest.net/result/c/aadce118-86a0-4e0b-82c5-1ced65bb229e

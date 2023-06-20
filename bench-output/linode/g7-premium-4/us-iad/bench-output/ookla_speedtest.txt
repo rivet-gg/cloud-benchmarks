@@ -1,0 +1,12 @@
+
+   Speedtest by Ookla
+
+      Server: Frontier - Ashburn, VA (id: 14229)
+         ISP: Akamai Connected Cloud
+Idle Latency:     0.31 ms   (jitter: 0.01ms, low: 0.31ms, high: 0.32ms)
+    Download: 17306.83 Mbps (data used: 23.6 GB)                                                   
+                  1.55 ms   (jitter: 1.42ms, low: 0.39ms, high: 6.00ms)
+      Upload:  4988.23 Mbps (data used: 8.3 GB)                                                   
+                  0.46 ms   (jitter: 0.28ms, low: 0.31ms, high: 5.29ms)
+ Packet Loss:     0.0%
+  Result URL: https://www.speedtest.net/result/c/206566b8-3a63-4a63-aabf-0e6d048afded

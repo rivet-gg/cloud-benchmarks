@@ -1,0 +1,82 @@
+Geekbench 6.1.0 : https://www.geekbench.com/
+
+Geekbench 6 requires an active internet connection and automatically uploads 
+benchmark results to the Geekbench Browser.
+
+Upgrade to Geekbench 6 Pro to enable offline use and unlock other features:
+
+  https://store.primatelabs.com/v6
+
+Enter your Geekbench 6 Pro license using the following command line:
+
+  ./geekbench6 --unlock <email> <key>
+
+System Information
+  Operating System              Debian GNU/Linux 11 (bullseye)
+  Kernel                        Linux 6.2.9-x86_64-linode160 x86_64
+  Model                         Linode Compute Instance
+  Motherboard                   QEMU Standard PC (Q35 + ICH9, 2009)
+  BIOS                          Linode Not Specified
+
+CPU Information
+  Name                          AMD EPYC 7713 64-Core Processor                
+  Topology                      1 Processor, 4 Cores
+  Identifier                    AuthenticAMD Family 25 Model 1 Stepping 1
+  Base Frequency                2.00 GHz
+  L1 Instruction Cache          64.0 KB x 4
+  L1 Data Cache                 64.0 KB x 4
+  L2 Cache                      512 KB x 4
+  L3 Cache                      16.0 MB
+
+Memory Information
+  Size                          7.74 GB
+
+
+Single-Core
+  Running File Compression
+  Running Navigation
+  Running HTML5 Browser
+  Running PDF Renderer
+  Running Photo Library
+  Running Clang
+  Running Text Processing
+  Running Asset Compression
+  Running Object Detection
+  Running Background Blur
+  Running Horizon Detection
+  Running Object Remover
+  Running HDR
+  Running Photo Filter
+  Running Ray Tracer
+  Running Structure from Motion
+
+Multi-Core
+  Running File Compression
+  Running Navigation
+  Running HTML5 Browser
+  Running PDF Renderer
+  Running Photo Library
+  Running Clang
+  Running Text Processing
+  Running Asset Compression
+  Running Object Detection
+  Running Background Blur
+  Running Horizon Detection
+  Running Object Remover
+  Running HDR
+  Running Photo Filter
+  Running Ray Tracer
+  Running Structure from Motion
+
+
+Uploading results to the Geekbench Browser. This could take a minute or two 
+depending on the speed of your internet connection.
+
+Upload succeeded. Visit the following link and view your results online:
+
+  https://browser.geekbench.com/v6/cpu/1658117
+
+Visit the following link and add this result to your profile:
+
+  https://browser.geekbench.com/v6/cpu/1658117/claim?key=494825
+
