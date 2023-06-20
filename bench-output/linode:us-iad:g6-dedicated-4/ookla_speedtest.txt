@@ -1,12 +1,0 @@
-
-   Speedtest by Ookla
-
-      Server: ZestyStore.com - Ashburn, VA (id: 39269)
-         ISP: Akamai Connected Cloud
-Idle Latency:     0.31 ms   (jitter: 0.10ms, low: 0.29ms, high: 0.51ms)
-    Download:  4908.77 Mbps (data used: 7.0 GB)                                                   
-                  0.40 ms   (jitter: 0.06ms, low: 0.32ms, high: 0.73ms)
-      Upload:  4988.51 Mbps (data used: 8.1 GB)                                                   
-                  0.46 ms   (jitter: 0.07ms, low: 0.35ms, high: 0.84ms)
- Packet Loss:     0.0%
-  Result URL: https://www.speedtest.net/result/c/1b0ef2fe-2e3e-42f8-b09f-d5c87a349c6b
