@@ -74,9 +74,9 @@ depending on the speed of your internet connection.
 
 Upload succeeded. Visit the following link and view your results online:
 
-  https://browser.geekbench.com/v6/cpu/1663725
+  https://browser.geekbench.com/v6/cpu/1664540
 
 Visit the following link and add this result to your profile:
 
-  https://browser.geekbench.com/v6/cpu/1663725/claim?key=884714
+  https://browser.geekbench.com/v6/cpu/1664540/claim?key=847183
 

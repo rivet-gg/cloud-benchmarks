@@ -48,13 +48,14 @@ resource "null_resource" "copy_outputs" {
 
     depends_on = [
         null_resource.geekbench,
+        null_resource.sysbench,
         null_resource.ookla_speedtest,
     ]
 
     triggers = {
         geekbench = null_resource.geekbench[each.key].id
         ookla_speedtest = null_resource.ookla_speedtest[each.key].id
-        taint = 1
+        sysbench = null_resource.sysbench[each.key].id
     }
 
     provisioner "local-exec" {
