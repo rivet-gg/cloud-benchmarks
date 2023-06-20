@@ -14,8 +14,8 @@ locals {
     test_suite_map = {
         for i, v in var.test_suite:
         "${v.provider}:${v.size}:${v.region}" => merge(v, {
-            index = i
             local_path = "${path.module}/bench-output/${v.provider}/${v.size}/${v.region}"
+            sha_short = substr(sha256("${v.provider}:${v.size}:${v.region}"), 0, 8)
         })
     }
 }
@@ -37,7 +37,7 @@ module "server" {
 	}
 
 	size = each.value.size
-	label = "cloudbench-${each.value.index}"
+	label = "cloudbench-${each.value.sha_short}"
 	tags = ["cloudbench"]
 
 	firewall_inbound = []
