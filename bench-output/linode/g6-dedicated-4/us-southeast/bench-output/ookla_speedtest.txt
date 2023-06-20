@@ -1,0 +1,12 @@
+
+   Speedtest by Ookla
+
+      Server: Netprotect - Atlanta, GA (id: 37565)
+         ISP: Akamai Connected Cloud
+Idle Latency:     1.10 ms   (jitter: 0.76ms, low: 0.35ms, high: 1.41ms)
+    Download: 12936.10 Mbps (data used: 13.8 GB)                                                   
+                  0.91 ms   (jitter: 0.68ms, low: 0.43ms, high: 4.21ms)
+      Upload:  4995.69 Mbps (data used: 8.1 GB)                                                   
+                  0.44 ms   (jitter: 0.12ms, low: 0.36ms, high: 1.94ms)
+ Packet Loss: Not available.
+  Result URL: https://www.speedtest.net/result/c/4b3ead73-570f-43b6-9609-b24d69168715

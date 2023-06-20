@@ -1,0 +1,12 @@
+
+   Speedtest by Ookla
+
+      Server: Sparklight - Atlanta, GA (id: 8707)
+         ISP: Akamai Connected Cloud
+Idle Latency:     0.78 ms   (jitter: 0.12ms, low: 0.62ms, high: 0.85ms)
+    Download:  9136.01 Mbps (data used: 7.2 GB)                                                   
+                  2.15 ms   (jitter: 0.51ms, low: 0.51ms, high: 3.94ms)
+      Upload:  5142.42 Mbps (data used: 7.6 GB)                                                   
+                  0.95 ms   (jitter: 0.77ms, low: 0.51ms, high: 5.97ms)
+ Packet Loss:     0.0%
+  Result URL: https://www.speedtest.net/result/c/c7e0ebf7-049a-4eb2-bb37-0e8f8e0bc19f
