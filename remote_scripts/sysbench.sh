@@ -3,5 +3,11 @@ set -euf -o pipefail
 
 apt install -y sysbench
 
-sysbench --test=cpu --cpu-max-prime=20000 run > /root/bench-output/sysbench.txt
+# CPU Test
+echo "Running CPU test..."
+sysbench cpu --cpu-max-prime=20000 --threads=${NUM_THREADS} run > /root/bench-output/sysbench-cpu.txt
+
+# Memory Test
+echo "Running Memory test..."
+sysbench memory --memory-total-size=1G run > /root/bench-output/sysbench-memory.txt
 
