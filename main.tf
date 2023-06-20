@@ -11,7 +11,7 @@ provider "linode" {
 }
 
 module "server" {
-    source = "../../tf/modules/generic_server"
+    source = "github.com/rivet-gg/terraform-generic-server"
 
 	namespace = var.namespace
 	private_key_openssh = var.private_key_openssh
