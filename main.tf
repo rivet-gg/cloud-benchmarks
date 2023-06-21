@@ -46,16 +46,11 @@ module "server" {
 resource "null_resource" "copy_outputs" {
     for_each = local.test_suite_map
 
-    depends_on = [
-        null_resource.geekbench,
-        null_resource.sysbench,
-        null_resource.ookla_speedtest,
-    ]
-
     triggers = {
         geekbench = null_resource.geekbench[each.key].id
         ookla_speedtest = null_resource.ookla_speedtest[each.key].id
         sysbench = null_resource.sysbench[each.key].id
+        phoronix = null_resource.phoronix[each.key].id
     }
 
     provisioner "local-exec" {

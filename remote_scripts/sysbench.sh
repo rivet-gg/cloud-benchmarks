@@ -5,7 +5,7 @@ apt install -y sysbench
 
 # CPU Test
 echo "Running CPU test..."
-sysbench cpu --cpu-max-prime=20000 --threads=${NUM_THREADS} run > /root/bench-output/sysbench-cpu.txt
+sysbench cpu --cpu-max-prime=20000 run > /root/bench-output/sysbench-cpu.txt
 
 # Memory Test
 echo "Running Memory test..."

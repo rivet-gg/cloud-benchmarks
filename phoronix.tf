@@ -1,10 +1,10 @@
-resource "null_resource" "ookla_speedtest" {
+resource "null_resource" "phoronix" {
     for_each = local.test_suite_map
 
-	depends_on = [null_resource.setup, null_resource.phoronix]
+	depends_on = [null_resource.setup, null_resource.sysbench]
 
     triggers = {
-        script = md5(file("${path.module}/remote_scripts/ookla_speedtest.sh"))
+        script = md5(file("${path.module}/remote_scripts/phoronix.sh"))
     }
 
 	connection {
@@ -15,7 +15,7 @@ resource "null_resource" "ookla_speedtest" {
 	}
 
 	provisioner "remote-exec" {
-        script = "${path.module}/remote_scripts/ookla_speedtest.sh"
+        script = "${path.module}/remote_scripts/phoronix.sh"
 	}
 }
 
